@@ -1,0 +1,248 @@
+[2024-09-16 23:14:34] local.ERROR: Command "make:migrate" is not defined.
+
+Did you mean one of these?
+    make:cast
+    make:channel
+    make:command
+    make:component
+    make:controller
+    make:event
+    make:exception
+    make:factory
+    make:job
+    make:listener
+    make:livewire
+    make:mail
+    make:middleware
+    make:migration
+    make:model
+    make:notification
+    make:observer
+    make:policy
+    make:provider
+    make:request
+    make:resource
+    make:rule
+    make:scope
+    make:seeder
+    make:test
+    make:view {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"make:migrate\" is not defined.
+
+Did you mean one of these?
+    make:cast
+    make:channel
+    make:command
+    make:component
+    make:controller
+    make:event
+    make:exception
+    make:factory
+    make:job
+    make:listener
+    make:livewire
+    make:mail
+    make:middleware
+    make:migration
+    make:model
+    make:notification
+    make:observer
+    make:policy
+    make:provider
+    make:request
+    make:resource
+    make:rule
+    make:scope
+    make:seeder
+    make:test
+    make:view at /home/aluno/atvliveware/vendor/symfony/console/Application.php:737)
+[stacktrace]
+#0 /home/aluno/atvliveware/vendor/symfony/console/Application.php(266): Symfony\\Component\\Console\\Application->find()
+#1 /home/aluno/atvliveware/vendor/symfony/console/Application.php(175): Symfony\\Component\\Console\\Application->doRun()
+#2 /home/aluno/atvliveware/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(201): Symfony\\Component\\Console\\Application->run()
+#3 /home/aluno/atvliveware/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#4 {main}
+"} 
+[2024-09-16 23:15:02] local.ERROR: Command "make:migrate" is not defined.
+
+Did you mean one of these?
+    make:cast
+    make:channel
+    make:command
+    make:component
+    make:controller
+    make:event
+    make:exception
+    make:factory
+    make:job
+    make:listener
+    make:livewire
+    make:mail
+    make:middleware
+    make:migration
+    make:model
+    make:notification
+    make:observer
+    make:policy
+    make:provider
+    make:request
+    make:resource
+    make:rule
+    make:scope
+    make:seeder
+    make:test
+    make:view {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"make:migrate\" is not defined.
+
+Did you mean one of these?
+    make:cast
+    make:channel
+    make:command
+    make:component
+    make:controller
+    make:event
+    make:exception
+    make:factory
+    make:job
+    make:listener
+    make:livewire
+    make:mail
+    make:middleware
+    make:migration
+    make:model
+    make:notification
+    make:observer
+    make:policy
+    make:provider
+    make:request
+    make:resource
+    make:rule
+    make:scope
+    make:seeder
+    make:test
+    make:view at /home/aluno/atvliveware/vendor/symfony/console/Application.php:737)
+[stacktrace]
+#0 /home/aluno/atvliveware/vendor/symfony/console/Application.php(266): Symfony\\Component\\Console\\Application->find()
+#1 /home/aluno/atvliveware/vendor/symfony/console/Application.php(175): Symfony\\Component\\Console\\Application->doRun()
+#2 /home/aluno/atvliveware/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(201): Symfony\\Component\\Console\\Application->run()
+#3 /home/aluno/atvliveware/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#4 {main}
+"} 
+[2024-09-16 23:41:44] local.ERROR: Invalid route action: [Home]. {"exception":"[object] (UnexpectedValueException(code: 0): Invalid route action: [Home]. at /home/aluno/atvliveware/vendor/laravel/framework/src/Illuminate/Routing/RouteAction.php:92)
+[stacktrace]
+#0 /home/aluno/atvliveware/vendor/laravel/framework/src/Illuminate/Routing/RouteAction.php(47): Illuminate\\Routing\\RouteAction::makeInvokable()
+#1 /home/aluno/atvliveware/vendor/laravel/framework/src/Illuminate/Routing/Route.php(191): Illuminate\\Routing\\RouteAction::parse()
+#2 /home/aluno/atvliveware/vendor/laravel/framework/src/Illuminate/Routing/Route.php(172): Illuminate\\Routing\\Route->parseAction()
+#3 /home/aluno/atvliveware/vendor/laravel/framework/src/Illuminate/Routing/Router.php(669): Illuminate\\Routing\\Route->__construct()
+#4 /home/aluno/atvliveware/vendor/laravel/framework/src/Illuminate/Routing/Router.php(562): Illuminate\\Routing\\Router->newRoute()
+#5 /home/aluno/atvliveware/vendor/laravel/framework/src/Illuminate/Routing/Router.php(541): Illuminate\\Routing\\Router->createRoute()
+#6 /home/aluno/atvliveware/vendor/laravel/framework/src/Illuminate/Routing/Router.php(159): Illuminate\\Routing\\Router->addRoute()
+#7 /home/aluno/atvliveware/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(355): Illuminate\\Routing\\Router->get()
+#8 /home/aluno/atvliveware/routes/web.php(16): Illuminate\\Support\\Facades\\Facade::__callStatic()
+#9 /home/aluno/atvliveware/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php(35): require('...')
+#10 /home/aluno/atvliveware/vendor/laravel/framework/src/Illuminate/Routing/Router.php(511): Illuminate\\Routing\\RouteFileRegistrar->register()
+#11 /home/aluno/atvliveware/vendor/laravel/framework/src/Illuminate/Routing/Router.php(465): Illuminate\\Routing\\Router->loadRoutes()
+#12 /home/aluno/atvliveware/vendor/laravel/framework/src/Illuminate/Routing/RouteRegistrar.php(194): Illuminate\\Routing\\Router->group()
+#13 /home/aluno/atvliveware/app/Providers/RouteServiceProvider.php(37): Illuminate\\Routing\\RouteRegistrar->group()
+#14 /home/aluno/atvliveware/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): App\\Providers\\RouteServiceProvider->App\\Providers\\{closure}()
+#15 /home/aluno/atvliveware/vendor/laravel/framework/src/Illuminate/Container/Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#16 /home/aluno/atvliveware/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure()
+#17 /home/aluno/atvliveware/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#18 /home/aluno/atvliveware/vendor/laravel/framework/src/Illuminate/Container/Container.php(662): Illuminate\\Container\\BoundMethod::call()
+#19 /home/aluno/atvliveware/vendor/laravel/framework/src/Illuminate/Foundation/Support/Providers/RouteServiceProvider.php(120): Illuminate\\Container\\Container->call()
+#20 /home/aluno/atvliveware/vendor/laravel/framework/src/Illuminate/Foundation/Support/Providers/RouteServiceProvider.php(45): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->loadRoutes()
+#21 /home/aluno/atvliveware/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->Illuminate\\Foundation\\Support\\Providers\\{closure}()
+#22 /home/aluno/atvliveware/vendor/laravel/framework/src/Illuminate/Container/Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#23 /home/aluno/atvliveware/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure()
+#24 /home/aluno/atvliveware/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#25 /home/aluno/atvliveware/vendor/laravel/framework/src/Illuminate/Container/Container.php(662): Illuminate\\Container\\BoundMethod::call()
+#26 /home/aluno/atvliveware/vendor/laravel/framework/src/Illuminate/Support/ServiceProvider.php(119): Illuminate\\Container\\Container->call()
+#27 /home/aluno/atvliveware/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1037): Illuminate\\Support\\ServiceProvider->callBootedCallbacks()
+#28 /home/aluno/atvliveware/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1015): Illuminate\\Foundation\\Application->bootProvider()
+#29 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}()
+#30 /home/aluno/atvliveware/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1016): array_walk()
+#31 /home/aluno/atvliveware/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#32 /home/aluno/atvliveware/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(263): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap()
+#33 /home/aluno/atvliveware/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(447): Illuminate\\Foundation\\Application->bootstrapWith()
+#34 /home/aluno/atvliveware/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(199): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#35 /home/aluno/atvliveware/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#36 {main}
+"} 
+[2024-09-16 23:43:13] local.ERROR: Invalid route action: [App\Http\Livewire\Home]. {"exception":"[object] (UnexpectedValueException(code: 0): Invalid route action: [App\\Http\\Livewire\\Home]. at /home/aluno/atvliveware/vendor/laravel/framework/src/Illuminate/Routing/RouteAction.php:92)
+[stacktrace]
+#0 /home/aluno/atvliveware/vendor/laravel/framework/src/Illuminate/Routing/RouteAction.php(47): Illuminate\\Routing\\RouteAction::makeInvokable()
+#1 /home/aluno/atvliveware/vendor/laravel/framework/src/Illuminate/Routing/Route.php(191): Illuminate\\Routing\\RouteAction::parse()
+#2 /home/aluno/atvliveware/vendor/laravel/framework/src/Illuminate/Routing/Route.php(172): Illuminate\\Routing\\Route->parseAction()
+#3 /home/aluno/atvliveware/vendor/laravel/framework/src/Illuminate/Routing/Router.php(669): Illuminate\\Routing\\Route->__construct()
+#4 /home/aluno/atvliveware/vendor/laravel/framework/src/Illuminate/Routing/Router.php(562): Illuminate\\Routing\\Router->newRoute()
+#5 /home/aluno/atvliveware/vendor/laravel/framework/src/Illuminate/Routing/Router.php(541): Illuminate\\Routing\\Router->createRoute()
+#6 /home/aluno/atvliveware/vendor/laravel/framework/src/Illuminate/Routing/Router.php(159): Illuminate\\Routing\\Router->addRoute()
+#7 /home/aluno/atvliveware/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(355): Illuminate\\Routing\\Router->get()
+#8 /home/aluno/atvliveware/routes/web.php(17): Illuminate\\Support\\Facades\\Facade::__callStatic()
+#9 /home/aluno/atvliveware/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php(35): require('...')
+#10 /home/aluno/atvliveware/vendor/laravel/framework/src/Illuminate/Routing/Router.php(511): Illuminate\\Routing\\RouteFileRegistrar->register()
+#11 /home/aluno/atvliveware/vendor/laravel/framework/src/Illuminate/Routing/Router.php(465): Illuminate\\Routing\\Router->loadRoutes()
+#12 /home/aluno/atvliveware/vendor/laravel/framework/src/Illuminate/Routing/RouteRegistrar.php(194): Illuminate\\Routing\\Router->group()
+#13 /home/aluno/atvliveware/app/Providers/RouteServiceProvider.php(37): Illuminate\\Routing\\RouteRegistrar->group()
+#14 /home/aluno/atvliveware/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): App\\Providers\\RouteServiceProvider->App\\Providers\\{closure}()
+#15 /home/aluno/atvliveware/vendor/laravel/framework/src/Illuminate/Container/Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#16 /home/aluno/atvliveware/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure()
+#17 /home/aluno/atvliveware/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#18 /home/aluno/atvliveware/vendor/laravel/framework/src/Illuminate/Container/Container.php(662): Illuminate\\Container\\BoundMethod::call()
+#19 /home/aluno/atvliveware/vendor/laravel/framework/src/Illuminate/Foundation/Support/Providers/RouteServiceProvider.php(120): Illuminate\\Container\\Container->call()
+#20 /home/aluno/atvliveware/vendor/laravel/framework/src/Illuminate/Foundation/Support/Providers/RouteServiceProvider.php(45): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->loadRoutes()
+#21 /home/aluno/atvliveware/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->Illuminate\\Foundation\\Support\\Providers\\{closure}()
+#22 /home/aluno/atvliveware/vendor/laravel/framework/src/Illuminate/Container/Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#23 /home/aluno/atvliveware/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure()
+#24 /home/aluno/atvliveware/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#25 /home/aluno/atvliveware/vendor/laravel/framework/src/Illuminate/Container/Container.php(662): Illuminate\\Container\\BoundMethod::call()
+#26 /home/aluno/atvliveware/vendor/laravel/framework/src/Illuminate/Support/ServiceProvider.php(119): Illuminate\\Container\\Container->call()
+#27 /home/aluno/atvliveware/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1037): Illuminate\\Support\\ServiceProvider->callBootedCallbacks()
+#28 /home/aluno/atvliveware/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1015): Illuminate\\Foundation\\Application->bootProvider()
+#29 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}()
+#30 /home/aluno/atvliveware/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1016): array_walk()
+#31 /home/aluno/atvliveware/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#32 /home/aluno/atvliveware/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(263): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap()
+#33 /home/aluno/atvliveware/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(447): Illuminate\\Foundation\\Application->bootstrapWith()
+#34 /home/aluno/atvliveware/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(199): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#35 /home/aluno/atvliveware/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#36 {main}
+"} 
+[2024-09-16 23:47:21] local.ERROR: Invalid route action: [App\Http\Livewire\Home]. {"exception":"[object] (UnexpectedValueException(code: 0): Invalid route action: [App\\Http\\Livewire\\Home]. at /home/aluno/atvliveware/vendor/laravel/framework/src/Illuminate/Routing/RouteAction.php:92)
+[stacktrace]
+#0 /home/aluno/atvliveware/vendor/laravel/framework/src/Illuminate/Routing/RouteAction.php(47): Illuminate\\Routing\\RouteAction::makeInvokable()
+#1 /home/aluno/atvliveware/vendor/laravel/framework/src/Illuminate/Routing/Route.php(191): Illuminate\\Routing\\RouteAction::parse()
+#2 /home/aluno/atvliveware/vendor/laravel/framework/src/Illuminate/Routing/Route.php(172): Illuminate\\Routing\\Route->parseAction()
+#3 /home/aluno/atvliveware/vendor/laravel/framework/src/Illuminate/Routing/Router.php(669): Illuminate\\Routing\\Route->__construct()
+#4 /home/aluno/atvliveware/vendor/laravel/framework/src/Illuminate/Routing/Router.php(562): Illuminate\\Routing\\Router->newRoute()
+#5 /home/aluno/atvliveware/vendor/laravel/framework/src/Illuminate/Routing/Router.php(541): Illuminate\\Routing\\Router->createRoute()
+#6 /home/aluno/atvliveware/vendor/laravel/framework/src/Illuminate/Routing/Router.php(159): Illuminate\\Routing\\Router->addRoute()
+#7 /home/aluno/atvliveware/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(355): Illuminate\\Routing\\Router->get()
+#8 /home/aluno/atvliveware/routes/web.php(17): Illuminate\\Support\\Facades\\Facade::__callStatic()
+#9 /home/aluno/atvliveware/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php(35): require('...')
+#10 /home/aluno/atvliveware/vendor/laravel/framework/src/Illuminate/Routing/Router.php(511): Illuminate\\Routing\\RouteFileRegistrar->register()
+#11 /home/aluno/atvliveware/vendor/laravel/framework/src/Illuminate/Routing/Router.php(465): Illuminate\\Routing\\Router->loadRoutes()
+#12 /home/aluno/atvliveware/vendor/laravel/framework/src/Illuminate/Routing/RouteRegistrar.php(194): Illuminate\\Routing\\Router->group()
+#13 /home/aluno/atvliveware/app/Providers/RouteServiceProvider.php(37): Illuminate\\Routing\\RouteRegistrar->group()
+#14 /home/aluno/atvliveware/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): App\\Providers\\RouteServiceProvider->App\\Providers\\{closure}()
+#15 /home/aluno/atvliveware/vendor/laravel/framework/src/Illuminate/Container/Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#16 /home/aluno/atvliveware/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure()
+#17 /home/aluno/atvliveware/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#18 /home/aluno/atvliveware/vendor/laravel/framework/src/Illuminate/Container/Container.php(662): Illuminate\\Container\\BoundMethod::call()
+#19 /home/aluno/atvliveware/vendor/laravel/framework/src/Illuminate/Foundation/Support/Providers/RouteServiceProvider.php(120): Illuminate\\Container\\Container->call()
+#20 /home/aluno/atvliveware/vendor/laravel/framework/src/Illuminate/Foundation/Support/Providers/RouteServiceProvider.php(45): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->loadRoutes()
+#21 /home/aluno/atvliveware/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->Illuminate\\Foundation\\Support\\Providers\\{closure}()
+#22 /home/aluno/atvliveware/vendor/laravel/framework/src/Illuminate/Container/Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#23 /home/aluno/atvliveware/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure()
+#24 /home/aluno/atvliveware/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#25 /home/aluno/atvliveware/vendor/laravel/framework/src/Illuminate/Container/Container.php(662): Illuminate\\Container\\BoundMethod::call()
+#26 /home/aluno/atvliveware/vendor/laravel/framework/src/Illuminate/Support/ServiceProvider.php(119): Illuminate\\Container\\Container->call()
+#27 /home/aluno/atvliveware/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1037): Illuminate\\Support\\ServiceProvider->callBootedCallbacks()
+#28 /home/aluno/atvliveware/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1015): Illuminate\\Foundation\\Application->bootProvider()
+#29 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}()
+#30 /home/aluno/atvliveware/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1016): array_walk()
+#31 /home/aluno/atvliveware/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#32 /home/aluno/atvliveware/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(263): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap()
+#33 /home/aluno/atvliveware/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(447): Illuminate\\Foundation\\Application->bootstrapWith()
+#34 /home/aluno/atvliveware/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(199): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#35 /home/aluno/atvliveware/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#36 {main}
+"} 
